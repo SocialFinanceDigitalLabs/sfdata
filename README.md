@@ -63,9 +63,9 @@ This project aims to be as compatible with these as possible, whilst recognising
 * [sfdata-stream-parser][sfdata-stream-parser] - generic tools for handling incoming data
 * [sfdata-pipeline][sfdata-pipeline] - standard, multi-platform, tasks for building processing pipelines
 
-[RDBMS]: https://test.com
-[xml-schema]: https://
-[json-schema]: https://test.com
+[RDBMS]: https://en.wikipedia.org/wiki/Database_schema
+[xml-schema]: https://www.w3.org/TR/xmlschema11-1/
+[json-schema]: https://json-schema.org/
 [tabular-data-primer]: https://www.w3.org/TR/tabular-data-primer/
 [frictionless]: https://specs.frictionlessdata.io//table-schema/
 
