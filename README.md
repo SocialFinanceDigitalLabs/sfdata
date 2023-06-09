@@ -57,6 +57,14 @@ This final step can apply a set of validation rules. Simple rules include ensuri
 
 Complex validation is currently outside the scope of this project.
 
+## Broader Project Goals
+
+As well as providing the pipeline, this project pulls together other useful pieces of functionality when working with data. 
+
+The [sfdata-schema][sfdata-schema] project can also be used to generate data structure documentation and diagrams. This is particularly convenient when collaborating on a data standard. 
+
+Wilst developing data tools, it is often good to have some sample data. The [sfdata-faker][sfdata-faker] project aims to allow the simple generation of fake data from a schema, as well as more complex generators and profiles for the sectors we do most work in, such as Children's Services.
+
 
 ## Sub-Projects
 
