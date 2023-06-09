@@ -10,6 +10,12 @@ Although probably most of the datasets we process are tabular and relational in 
 and in some case we need to transform from hierarchical to tabular and back. Thus this project aims to create some core
 concepts that apply to both tabular and hierarchical data, as well as miscelaneous utilities for processing either.
 
+## Similar Projects
+
+There are many projects out there that to one degree or another deals with data binding and validation. Most (all?) [RDBMS][RDBMS] have a schema to describe the tables and relations. XML has [XML Schema][xml-schema]. There is [JSON Schema][json-schema], [CSV on the Web][tabular-data-primer], [Frictionless's Data Schema][frictionless] and many more.
+
+This project aims to be as compatible with these as possible, whilst recognising the slightly different purpose. Whereas as most of those projects aim to be strict and limit data to those formats, this project aims to be permissive and helpful in converting incoming data to a standard form.
+
 ## Common Pipeline
 At the core, we believe almost all our data pre-processing steps follow five general steps:
 
@@ -51,11 +57,6 @@ This final step can apply a set of validation rules. Simple rules include ensuri
 
 Complex validation is currently outside the scope of this project.
 
-## Similar Projects
-
-There are many projects out there that to one degree or another deals with data binding and validation. Most (all?) [RDBMS][RDBMS] have a schema to describe the tables and relations. XML has [XML Schema][xml-schema]. There is [JSON Schema][json-schema], [CSV on the Web][tabular-data-primer], [Frictionless's Data Schema][frictionless] and many more.
-
-This project aims to be as compatible with these as possible, whilst recognising the slightly different purpose. Whereas as most of those projects aim to be strict and limit data to those formats, this project aims to be permissive and helpful in converting incoming data to a standard form.
 
 ## Sub-Projects
 
@@ -63,6 +64,7 @@ This project aims to be as compatible with these as possible, whilst recognising
 * [sfdata-stream-parser][sfdata-stream-parser] - generic tools for handling incoming data
 * [sfdata-pipeline][sfdata-pipeline] - standard, multi-platform, tasks for building processing pipelines
 * [sfdata-faker][sfdata-faker] - providers used to generate fake data using python's faker library
+
 
 [RDBMS]: https://en.wikipedia.org/wiki/Database_schema
 [xml-schema]: https://www.w3.org/TR/xmlschema11-1/
