@@ -62,6 +62,7 @@ This project aims to be as compatible with these as possible, whilst recognising
 * [sfdata-schema][sfdata-schema] - format for describing data
 * [sfdata-stream-parser][sfdata-stream-parser] - generic tools for handling incoming data
 * [sfdata-pipeline][sfdata-pipeline] - standard, multi-platform, tasks for building processing pipelines
+* [sfdata-faker][sfdata-faker] - providers used to generate fake data using python's faker library
 
 [RDBMS]: https://en.wikipedia.org/wiki/Database_schema
 [xml-schema]: https://www.w3.org/TR/xmlschema11-1/
@@ -72,5 +73,5 @@ This project aims to be as compatible with these as possible, whilst recognising
 [sfdata-schema]: https://github.com/SocialFinanceDigitalLabs/sfdata-schema
 [sfdata-pipeline]: https://github.com/SocialFinanceDigitalLabs/sf-data-pipeline
 [sfdata-stream-parser]: https://github.com/SocialFinanceDigitalLabs/sfdata-stream-parser
-
+[sfdata-faker]: https://github.com/SocialFinanceDigitalLabs/sfdata-faker
 
