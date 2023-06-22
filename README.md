@@ -10,6 +10,8 @@ Although probably most of the datasets we process are tabular and relational in 
 and in some case we need to transform from hierarchical to tabular and back. Thus this project aims to create some core
 concepts that apply to both tabular and hierarchical data, as well as miscelaneous utilities for processing either.
 
+The most updated documentation on this is in the [wiki page](../../wiki).
+
 ## Similar Projects
 
 There are many projects out there that to one degree or another deals with data binding and validation. Most (all?) [RDBMS][RDBMS] have a schema to describe the tables and relations. XML has [XML Schema][xml-schema]. There is [JSON Schema][json-schema], [CSV on the Web][tabular-data-primer], [Frictionless's Data Schema][frictionless] and many more.
